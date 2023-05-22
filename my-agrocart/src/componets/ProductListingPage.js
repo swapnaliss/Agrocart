@@ -28,7 +28,18 @@ const ProductListingPage = () => {
                                     <option value="">All Categories</option>
                                     <option value="fruits">Fruits</option>
                                     <option value="vegetables">Vegetables</option>
-                                    {/* Add more categories here */}
+                                </Form.Control>
+                            </Form.Group>
+                            {/* Filter by Rating */}
+                            <Form.Group controlId="ratingFilter">
+                                <Form.Label>Filter by Rating</Form.Label>
+                                <Form.Control as="select">
+                                    <option value="">All Ratings</option>
+                                    <option value="5">5 Stars</option>
+                                    <option value="4">4 Stars &amp; Above</option>
+                                    <option value="3">3 Stars &amp; Above</option>
+                                    <option value="2">2 Stars &amp; Above</option>
+                                    <option value="1">1 Star &amp; Above</option>
                                 </Form.Control>
                             </Form.Group>
                         </Card.Body>
