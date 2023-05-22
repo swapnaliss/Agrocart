@@ -6,6 +6,7 @@ import Cart from "./componets/Cart";
 import ProductListingPage from "./componets/ProductListingPage";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import SingleProductPage from "./componets/SingleProductPage";
+import Login from "./componets/Login"
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route exact path="/wishlist" element={<Wishlist/>} />
         <Route exact path="/productlistingpage" element={<ProductListingPage/>} />
         <Route exact path="/singleproductpage" element={<SingleProductPage/>} />
+        <Route exact path="/login" element={<Login/>} />
 
 
         </Routes>
