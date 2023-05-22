@@ -42,6 +42,15 @@ const ProductListingPage = () => {
                                     <option value="1">1 Star &amp; Above</option>
                                 </Form.Control>
                             </Form.Group>
+                            {/* Sort by Price */}
+                            <Form.Group controlId="priceSort">
+                                <Form.Label>Sort by Price</Form.Label>
+                                <Form.Control as="select">
+                                <option value="SelectOption">select</option>
+                                    <option value="lowToHigh">Low to High</option>
+                                    <option value="highToLow">High to Low</option>
+                                </Form.Control>
+                            </Form.Group>
                         </Card.Body>
                     </Card>
 
