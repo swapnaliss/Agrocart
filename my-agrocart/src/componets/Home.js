@@ -53,10 +53,10 @@ const Home = () => {
         </Carousel>
       </div>
       <h3>Coupons For You</h3>
-      <div className="row mt-3">
+      <div className="row mt-3" >
         {offers.map((offer, index) => (
           <div className="col-md-6 col-lg-4 mb-4" key={index}>
-            <Card className="offer-card">
+            <Card className="offer-card" style={{ height: '200px' }}>
               <Card.Img variant="top" src={offer.imageUrl} alt={offer.title} />
               <Card.Body>
                 <Card.Title>{offer.title}</Card.Title>
