@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col, Card, Button } from 'react-bootstrap';
+import { Container, Row, Col, Card, Button , Form} from 'react-bootstrap';
 
 const ProductListingPage = () => {
   return (
@@ -7,7 +7,23 @@ const ProductListingPage = () => {
       <Row className="mt-4">
         {/* Filter Section */}
         <Col sm={3}>
-         Filter Section
+        <Card>
+            <Card.Body>
+              <Card.Title>Filter</Card.Title>
+              <Button variant="link">Clear Filter</Button>
+
+              {/* Filter by Price */}
+              <Form.Group controlId="priceFilter">
+                <Form.Label>Filter by Price</Form.Label>
+                <div className="d-flex align-items-center justify-content-between">
+                  <span>$0</span>
+                  <span>$100</span>
+                </div>
+                <Form.Control type="range" min="0" max="100" />
+              </Form.Group>
+            </Card.Body>
+          </Card>
+
          </Col>
 
         {/* Product Listing Section */}
