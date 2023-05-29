@@ -8,6 +8,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import SingleProductPage from "./componets/SingleProductPage";
 import Login from "./componets/Login";
 import Signup from "./componets/Signup";
+import Mockman  from  "mockman-js"
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route exact path="/singleproductpage" element={<SingleProductPage/>} />
         <Route exact path="/login" element={<Login/>} />
         <Route exact path="/signup" element={<Signup/>} />
+        <Route exact path="/mockman" element = {  <Mockman/>} />
         </Routes>
       </div>
     </BrowserRouter>

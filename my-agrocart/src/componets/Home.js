@@ -10,13 +10,11 @@ const Home = () => {
     { name: 'Fruits and Vegetables', icon: '🍎' },
     { name: 'Grains and Cereals', icon: '🌾' },
 
-    // Add more categories here
   ];
   const offers = [
     { title: '50% off on Fruits', description: 'Limited time offer on all fresh fruits.', imageUrl: 'https://example.com/fruits-offer.jpg' },
     { title: 'Special Grain Bundle', description: 'Get a discounted bundle of assorted grains for your pantry.', imageUrl: 'https://example.com/grains-offer.jpg' },
     { title: 'Special Grain Bundle', description: 'Get a discounted bundle of assorted grains for your pantry.', imageUrl: 'https://example.com/grains-offer.jpg' },
-    // Add more offers here
   ];
   return (
 
@@ -49,7 +47,6 @@ const Home = () => {
               alt="Second slide"
             />
           </Carousel.Item>
-          {/* Add more carousel items as needed */}
         </Carousel>
       </div>
       <h3>Coupons For You</h3>

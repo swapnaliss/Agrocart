@@ -1,7 +1,17 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Container, Row, Col, Card, Button, Form } from 'react-bootstrap';
+import { BsHeartFill } from 'react-icons/bs';
 
 const ProductListingPage = () => {
+    const [products, setProducts] = useState([]);
+
+    useEffect(() => {
+        fetch('/api/products')
+            .then(response => response.json())
+            .then(data => setProducts(data.products))
+            .catch(error => console.log(error));
+    }, []);
+
     return (
         <Container>
             <Row className="mt-4">
@@ -46,7 +56,7 @@ const ProductListingPage = () => {
                             <Form.Group controlId="priceSort">
                                 <Form.Label>Sort by Price</Form.Label>
                                 <Form.Control as="select">
-                                <option value="SelectOption">select</option>
+                                    <option value="SelectOption">select</option>
                                     <option value="lowToHigh">Low to High</option>
                                     <option value="highToLow">High to Low</option>
                                 </Form.Control>
@@ -60,15 +70,15 @@ const ProductListingPage = () => {
                 <Col sm={9}>
                     <Row>
                         {/* Product Cards */}
-                        {[...Array(20)].map((_, index) => (
-                            <Col sm={4} key={index} className="mb-4">
+                        {products.map(product => (
+                            <Col sm={4} key={product._id} className="mb-4">
                                 <Card>
-                                    <Card.Img variant="top" src="https://example.com/product-image.jpg" alt="Product" />
+                                    <Card.Img variant="top" src={product.img} alt="Product" />
                                     <Card.Body>
-                                        <Card.Title>Product Name</Card.Title>
-                                        <Card.Text>Price: $10</Card.Text>
+                                        <Card.Title>{product.name}</Card.Title>
+                                        <Card.Text>Price: ${product.price}</Card.Text>
                                         <Button variant="primary">Add to Cart</Button>
-                                        <span className="favorite-icon">&#9825;</span>
+                                        <BsHeartFill className="favorite-icon" />
                                     </Card.Body>
                                 </Card>
                             </Col>
