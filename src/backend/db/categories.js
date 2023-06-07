@@ -11,19 +11,19 @@ export const categories = [
     categoryName: "Fruits and Vegetables",
     description:
       "Fruits and Vegetables",
-      icon: '🍎' 
+      icon: '🍎🍎' 
   },
   {
     _id: uuid(),
     categoryName: "Grains and Cereals",
     description:
       "Grains and Cereals",
-      icon: '🌾' 
+      icon: '🌾🌾' 
   },
   {
     _id: uuid(),
     categoryName: "Dairy Products",
     description: "Dairy Products",
-    icon: '🍎' 
+    icon: '🥛🥛' 
   },
 ];

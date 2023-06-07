@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="src/assets/logo.png" height="100" width="100" alt="logo"/>
+  <img src="" height="100" width="100" alt="logo"/>
   
 # Agro-Cart
   An Ecommerce website for Agro Products 
@@ -35,10 +35,6 @@ $ npm start
 - React JS
 - React Context API + useReducer
 - React Router v6
-- Vanilla CSS integrated with BoostMat UI Component Library
-- Razorpay payment gateway
 
-## **Demo -**
-![ezgif com-gif-maker](https://user-images.githubusercontent.com/58260342/161412291-aec62d98-98bd-4902-8109-1069406702b4.gif)
 
 

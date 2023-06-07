@@ -21,7 +21,7 @@ export const products = [
   },
   {
     _id: uuid(),
-    img: "rice.jpg",
+    img: "https://media.istockphoto.com/id/153737841/photo/rice.jpg?s=612x612&w=0&k=20&c=lfO7iLT0UsDDzra0uBOsN1rvr2d5OEtrG2uwbts33_c=",
     name: "Long Grain Rice",
     author: "Rural Grains",
     price: 499,
@@ -34,7 +34,7 @@ export const products = [
   },
   {
     _id: uuid(),
-    img: "product3.jpg",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQs08D9ve4-v8eKr-winYIIfPL461NbCnxIgQ&usqp=CAU",
     name: "Farmhouse Cheddar Cheese",
     author: "Dairy Delights",
     price: 449,
@@ -47,7 +47,7 @@ export const products = [
   },
   {
     _id: uuid(),
-    img: "product4.jpg",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcMjzy3Sbs-Yty20rNPXotOrZ_7RFkr8qHyw&usqp=CAU",
     name: "Grass-Fed Ground Beef",
     author: "Happy Farms",
     price: 899,
@@ -60,7 +60,7 @@ export const products = [
   },
   {
     _id: uuid(),
-    img: "product5.jpg",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgdTpHlGykJyiyE2bNxcvIFGzHaPrl-zZY1A&usqp=CAU",
     name: "Organic Basil",
     author: "Herb Haven",
     price: 199,
@@ -73,7 +73,7 @@ export const products = [
   },
   {
     _id: uuid(),
-    img: "corn.jpg",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSR9ZaDV4KkglS6bIkFnB-U4hMIW6v8wfiFjw&usqp=CAU",
     name: "Fresh Sweet Corn",
     author: "Golden Harvest",
     price: 199,
@@ -86,7 +86,7 @@ export const products = [
   },
   {
     _id: uuid(),
-    img: "product7.jpg",
+    img: "https://flowersnfruits-image.s3.ap-south-1.amazonaws.com/uploads/product-pics/mix-color-roses-bouquet.jpg",
     name: "Mixed Bouquet",
     author: "Blooming Fields",
     price: 999,
@@ -112,7 +112,7 @@ export const products = [
   },
   {
     _id: uuid(),
-    img: "oregano.jpg",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0Gh5bUO-8tWjFDuC1u8ZyP3O_XCPPM0lDFg&usqp=CAU",
     name: "Dried Oregano",
     author: "Spice Masters",
     price: 149,
@@ -125,7 +125,7 @@ export const products = [
   },
   {
     _id: uuid(),
-    img: "tulip.jpg",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLsZVzrlG-sN5MtSjqXIBQJbcmWmqXC8F9b9d7R-3-Q3AfdfwuHxfkxpOxAiDuPpxz81c&usqp=CAU",
     name: "Colorful Tulip Bulbs",
     author: "Blossom Fields",
     price: 599,
@@ -138,7 +138,7 @@ export const products = [
   },
   {
     _id: uuid(),
-    img: "tomato.jpg",
+    img: "https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/three-vine-ripened-tomatoes-scott-hales.jpg",
     name: "Vine-Ripened Tomatoes",
     author: "Harvest Farms",
     price: 349,
@@ -151,7 +151,7 @@ export const products = [
   },
   {
     _id: uuid(),
-    img: "product12.jpg",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPpdOh7Kql4SSNAP8ZENiOe_3evpZyaH95JA&usqp=CAU",
     name: "Juicy Oranges",
     author: "Citrus Farms",
     price: 349,
@@ -164,7 +164,7 @@ export const products = [
   },
   {
     _id: uuid(),
-    img: "product13.jpg",
+    img: "https://media.istockphoto.com/id/173589620/photo/brown-rice.jpg?s=612x612&w=0&k=20&c=yvu1W2c5fj1Aa6lb-NvWQPXXmL__QWJqS2kGlhCfq0I=",
     name: "Brown Rice",
     author: "Rural Grains",
     price: 299,
@@ -177,7 +177,7 @@ export const products = [
   },
   {
     _id: uuid(),
-    img: "product14.jpg",
+    img: "https://tiimg.tistatic.com/fp/1/007/457/natural-farm-fresh-delicious-flavour-100-pure-cow-milk-for-human-consumption-692.jpg",
     name: "Farm Fresh Milk",
     author: "Dairy Delights",
     price: 249,
@@ -203,7 +203,7 @@ export const products = [
   },
   {
     _id: uuid(),
-    img: "product16.jpg",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1AH0pSgB-hnQrWHO_RIFrTxbueeVgJgYOxg&usqp=CAU",
     name: "Dried Thyme",
     author: "Herb Haven",
     price: 149,
@@ -216,7 +216,7 @@ export const products = [
   },
   {
     _id: uuid(),
-    img: "turmeric.jpg",
+    img: "https://5.imimg.com/data5/CC/AQ/MY-48498942/organic-haldi-powder-500x500.jpg",
     name: "Ground Turmeric",
     author: "Curry House",
     price: 299,
@@ -229,8 +229,8 @@ export const products = [
   },
   {
     _id: uuid(),
-    img: "product18.jpg",
-    name: "Colorful Mixed Flowers",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPHCuezF9kW78FRtxz_8tph5qamTnnbfwlfw&usqp=CAU",
+    name: "Rose",
     author: "Blooming Fields",
     price: 149,
     originalPrice: 179,
@@ -242,7 +242,7 @@ export const products = [
   },
   {
     _id: uuid(),
-    img: "wheat.jpg",
+    img: "https://media.istockphoto.com/id/153162703/photo/flour-in-small-burlap-sack.jpg?s=612x612&w=0&k=20&c=mEROV4y5JVyhweys6UjROtl7sUdgPZOvTIP7cBMbxD0=",
     name: "Whole Wheat Flour",
     author: "Mills & Co.",
     price: 499,
@@ -255,7 +255,7 @@ export const products = [
   },
   {
     _id: uuid(),
-    img: "basil.jpg",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUcne9Vy7KKs_UMuR7x051ROJlDSY-tLlu7g&usqp=CAU",
     name: "Fresh Basil Leaves",
     author: "Herb Haven",
     price: 199,

@@ -27,8 +27,9 @@ export function Home() {
   };
   return (
     <>
-      <div className="container">
-        <div className="row">
+      <div>
+      <h2 className="text-center">Online Shopping Site for Agro Products</h2>
+        <div className="category">
           {categories &&
             categories.map(({ _id, categoryName, description, icon }) => {
               return (
